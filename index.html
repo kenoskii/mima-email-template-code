@@ -1,56 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-<style>
-      body footer img:hover,
-      body footer img:active {
-        cursor: pointer;
-        transform: translateY(-0.8rem);
-        transition: 0.5s;
+
+<head>
+  <style>
+    body footer img:hover,
+    body footer img:active {
+      cursor: pointer;
+      transform: translateY(-0.8rem);
+      transition: 0.5s;
+    }
+
+    @media (max-width: 50rem) {
+      section{
+        justify-content: center !important;
+        margin-left: .4rem !important;
+        text-align: center !important;
+        font-size: 1rem !important;
       }
-           
-      /* @media (max-width: 50rem) {
+      body header h1{
+        font-size: 2.5rem !important;
+        margin-top: 1.7rem !important;
+        margin-bottom;: 3.7rem
+      }
+      
         body footer p {
-          width: 31rem;
+          font-size: 1rem !important;
+          width: 25rem !important;
         }
         
         body header h1 {
-          text-align: center;
+          text-align: center !important;
         }
-        body section {
-          text-align: center;
-          margin-left: 0;
+       
+      }
+      @media (max-width: 28rem){
+        body footer p {
+          font-size: 1rem !important;
+          width: 17rem !important;
         }
-      } */
-    </style> -->
-    <meta charset="UTF-8" />
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <title>Email Template</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Mulish:wght@400;500;700&family=Playfair+Display:wght@800&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-  </head>
-  <body style="font-family: Montserrat, sans-serif;
+        section{        
+        text-align: center !important;
+      }
+      section span{
+        font-size: 1.5rem;
+      }
+     
+      }
+  </style> -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Email Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Mulish:wght@400;500;700&family=Playfair+Display:wght@800&family=Poppins:wght@400;600;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body style="font-family: Montserrat, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #E5E5E5;">
-    <!-- HEADER -->
-    <header style="background-color: #1F68D6;
+  <!-- HEADER -->
+  <header style="background-color: #1F68D6;
     color: #FBFCFE;
     display: flex;
     width: 100%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;">
-      <div class="header__img1" style=" width: 15rem;
-      margin-top: 3rem;">
-        <img
-          src="https://naira-up-data.s3.us-east-2.amazonaws.com/business-documents/62ab32d40af1a16a7076b0f6/Mima-light-logo1%281%29.png"
-          alt=""
-        />
-      </div>
-      <div class="header__img2" style="margin-top: 7rem;
+    <div class="header__img1" style=" width: 15rem;
+      margin-top: 3rem; display: flex; justify-content: center;">
+      <img
+        src="https://naira-up-data.s3.us-east-2.amazonaws.com/business-documents/62ab32d40af1a16a7076b0f6/Mima-light-logo1%281%29.png"
+        alt="" />
+    </div>
+    <div class="header__img2" style="margin-top: 7rem;
       box-sizing: border-box;
       border-top: 2rem;
       border-bottom: 1.3rem;
@@ -60,83 +86,80 @@
       border-style: solid;
       padding: 1rem 1.7rem;
       border-radius: 1rem;">
-        <img
-          src="https://naira-up-data.s3.us-east-2.amazonaws.com/business-documents/62ab32d40af1a16a7076b0f6/Vector%282%29.png"
-          alt=""
-        />
-      </div>
-      <h1 style="margin-top: 3.7rem;
+      <img
+        src="https://naira-up-data.s3.us-east-2.amazonaws.com/business-documents/62ab32d40af1a16a7076b0f6/Vector%282%29.png"
+        alt="" />
+    </div>
+    <h1 style="margin-top: 3.7rem;
       margin-bottom: 7.6rem;
       font-weight: 700;
       font-size: 3.2rem;">Account Verfication</h1>
-    </header>
-    <!-- SECTION -->
-    <section style="background-color: #E5E5E5;
+  </header>
+  <!-- SECTION -->
+  <section style="background-color: #E5E5E5;
     color: #4A4A68;
     margin-top: 3rem;
     margin-bottom: 2.5rem;
     line-height: 2.2rem;
     margin-left: 9.4rem;">
-      <h4 style="font-size: 1.8rem;
+    <h4 style="font-size: 1.8rem;
       font-weight: 700;
       font-size: 1.8rem;
       font-weight: 700;">Hello Samuel,</h4>
-      <h1 style="color:red;">I like turtles</h1>
-      <span style="font-size: 1.8rem;
+    <h1 style="color:red;">I like turtles</h1>
+    <span style="font-size: 1.8rem;
       font-weight: 400;
-      display: flex;"
-        >Please use the code below to activate your Mima Business account</span
-      >
-      <h2 style="font-size: 2.4rem;
+      display: flex;">Please use the code below to activate your Mima Business account</span>
+    <h2 style="font-size: 2.4rem;
       font-weight: 700;
       line-height: 1.9rem;
       margin-bottom: 2.5rem;">29264</h2>
-      <p style="font-size: 1.8rem;
+    <p style="font-size: 1.8rem;
       font-weight: 400;
       line-height: 0.5rem;">Regards,</p>
-      <p style="font-size: 1.8rem;
+    <p style="font-size: 1.8rem;
       font-weight: 400;
-      line-height: 0.5rem;">Mima Business Team</p>
-    </section>
-    <!-- FOOTER -->
-    <footer class="container" style=" background-color: #CCEDFF;
+      line-height: 0.5rem;"> <span>Mima Business Team</span></p>
+  </section>
+  <!-- FOOTER -->
+  <footer class="container" style=" background-color: #CCEDFF;
     color: #4A4A68;
     display: flex;
     flex-direction: column;
     align-items: center;">
-      <hr class="footer-divider" />
-      <div>
-        <p class="footer-text" style="font-size: 1.4rem;
+    <hr class="footer-divider" />
+    <div>
+      <p class="footer-text" style="font-size: 1.4rem;
         text-align: center;
         box-sizing: border-box;
         width: 51rem;
         margin-bottom: 3rem;">
-          The Mima Business Team, 33 TE Williams Street Kfarm Estate, Ojodu,
-          Lagos Nigeria
-        </p>
-      </div>
-      <div class="social-icons" style="">
-        <img style="margin: 2rem 1rem;
+        The Mima Business Team, 33 TE Williams Street Kfarm Estate, Ojodu,
+        Lagos Nigeria
+      </p>
+    </div>
+    <div class="social-icons" style="">
+      <img style="margin: 2rem 1rem;
         padding-top: 1.3rem;"
-          src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAGwAAAAUCAYAAABoF9hhAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAbKADAAQAAAABAAAAFAAAAAATsVMqAAAFMElEQVRoBdVYTWwTRxR+G3JLKnJLkFoV8XPFNjdSAQ4tILiQqKI3VHMDBCSRkgOiEokE6gEkkv4QLhBDDpUiVUkOLWqhwhCRcGltcyQhFFGpaU9BTa4175v1bGZnZ3bXscWKJ633zZs375uZ9+bt8zhkoT30abdDTqpClHWI0lBjvsR8gdnSHD2YgayRlAQm5p8E7kYxef/91EkH4ZxxfoST/L2+VolbJ+foPt51URKYmHASuPViblJ3upM+GyJyfmBZhyq38NA59RFto9e09MiiEylOAhOTSgK3EZiew6rGLkXucEDByX5I2978RUtPA10RgiQwMaUkcBuFKVJi9ZgWI/Y3qjtTS3pMAtN1lkj57+1am6teyEd5Y2d6O7VsbqHF8gtaXVkzqeO7lzF1WGR5i7wWca2YsJ03AbS2tdCO1HZf17tYK/Y1vX+XwC09ekYLpRe+OSgNsVbHrVaappSOAHv++in6ordHyM8dGKRi4VlAB4IK/d8zT79NGzsVYRxMqHdsbaejXx6khfKSWMjqymogWOJiwp4N92juEO09tiewWdjM2Zl5+jn/K4b7KC6uDRMBcnF8gFbfrNHj6Tlhe193J33Q1kqXc1cD64QCMJu5dI+qBgkLWuCTda5r0GhIrqRqK9JhNsxfVqbobHbA27jvC9eo4+N2YR6Rd7ZrQEJ577iYGGDDhbMu9Ax7NiWTye4SgWpyWFxcG+ZX+UH6iQMB61r+8x8BOcuO28tO6x05TVdy1+Q0vDdsNVXIyXoSjUEU4Li2cirEnzA9ZWjqrGK3pera9DD5fHGMvp66RMf5REtnYezszJwxWGy2VDzJm3ThFJmGEJjjxRviAY9Mgj7o6GSypeugbdLDyf2PswVs//hyQmQSORZOA0FHJ9hqYpPWE4ZB3z28KsapvG5Ith2qpCQf/jZjbuEUCNrX/Qn1cZSp9Hc1ClUZ+PiY0Dbjogd0vLebTmbOiAd8GMXHDWJiL9XPClK9SugzOQyY7DA7IQLwzQKJlFjlbSP4EAb+iNt0TXLkbkSeTm6ef6KLRbteTNWoWkypvKoj+UbgIhXeHp6g89dPi1N2hL/XIGQ20z4Akx3mlOQk9DcmLSNB5XW99bbd1roOOLMeAmSRCwydbg3dNaZDV89sS7cRR/fenfv0LWcUPODDKS5uUO+PQtlLs7eGJkTlje913+gZ4bjd2ZSXpv1zcEpNfMwKfuHGW3FtmfRkWf28uOibwGj/GE2O2ItYky2fAaVh0kVAZniDQCguUFjhkYUGigAZtIoppOKC2rbxJj2cLDhFEtb3+dYTdLitR8iR/mUhInXwhq3mClX4QreuTObZhC2vEcKYMHGC17jExYM0gZSActc0cdV0XEyMMeFCPjk6JQoN+cGHDARnfdN/021ov3FxTZj4PuE/bb40Jtb3+8OysL6bi5vlV//SaN+YhuY2XVvM860DNnrd5Zo6qiRsKFJWCJX5piMd0u/risL0KdsbNWHCTBguNhInHRSx3ppwdUxZUGA/8V9TbYcEqMCUNx05nmMREzWRKSUY9HIGWZgI+lbMsIFKH2zUSjkeYMSNCEgVBzZqoRwre5gqDhwU4iQVAzZoE374tn2Zb905L8b7H4UxKvFR7Z+nB9OqLIpPAhNzSgK3kZjCYdWFFDbitKqzRqIcZOrnhbxzzPd9rYFqg/MtvkN5flJYXAjhS5mr5YbeZisJTMwlCdx6MQMOk5vqXlo6afdqRf5bd7iirBRQrcS55JW24r6TwMTcksDdKOZbUNS2y/WY68gAAAAASUVORK5CYII="
-        />
-      </div>
-      <div>
-        <p class="footer-text" style="font-size: 1.4rem;
+        src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAGwAAAAUCAYAAABoF9hhAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAbKADAAQAAAABAAAAFAAAAAATsVMqAAAFMElEQVRoBdVYTWwTRxR+G3JLKnJLkFoV8XPFNjdSAQ4tILiQqKI3VHMDBCSRkgOiEokE6gEkkv4QLhBDDpUiVUkOLWqhwhCRcGltcyQhFFGpaU9BTa4175v1bGZnZ3bXscWKJ633zZs375uZ9+bt8zhkoT30abdDTqpClHWI0lBjvsR8gdnSHD2YgayRlAQm5p8E7kYxef/91EkH4ZxxfoST/L2+VolbJ+foPt51URKYmHASuPViblJ3upM+GyJyfmBZhyq38NA59RFto9e09MiiEylOAhOTSgK3EZiew6rGLkXucEDByX5I2978RUtPA10RgiQwMaUkcBuFKVJi9ZgWI/Y3qjtTS3pMAtN1lkj57+1am6teyEd5Y2d6O7VsbqHF8gtaXVkzqeO7lzF1WGR5i7wWca2YsJ03AbS2tdCO1HZf17tYK/Y1vX+XwC09ekYLpRe+OSgNsVbHrVaappSOAHv++in6ordHyM8dGKRi4VlAB4IK/d8zT79NGzsVYRxMqHdsbaejXx6khfKSWMjqymogWOJiwp4N92juEO09tiewWdjM2Zl5+jn/K4b7KC6uDRMBcnF8gFbfrNHj6Tlhe193J33Q1kqXc1cD64QCMJu5dI+qBgkLWuCTda5r0GhIrqRqK9JhNsxfVqbobHbA27jvC9eo4+N2YR6Rd7ZrQEJ577iYGGDDhbMu9Ax7NiWTye4SgWpyWFxcG+ZX+UH6iQMB61r+8x8BOcuO28tO6x05TVdy1+Q0vDdsNVXIyXoSjUEU4Li2cirEnzA9ZWjqrGK3pera9DD5fHGMvp66RMf5REtnYezszJwxWGy2VDzJm3ThFJmGEJjjxRviAY9Mgj7o6GSypeugbdLDyf2PswVs//hyQmQSORZOA0FHJ9hqYpPWE4ZB3z28KsapvG5Ith2qpCQf/jZjbuEUCNrX/Qn1cZSp9Hc1ClUZ+PiY0Dbjogd0vLebTmbOiAd8GMXHDWJiL9XPClK9SugzOQyY7DA7IQLwzQKJlFjlbSP4EAb+iNt0TXLkbkSeTm6ef6KLRbteTNWoWkypvKoj+UbgIhXeHp6g89dPi1N2hL/XIGQ20z4Akx3mlOQk9DcmLSNB5XW99bbd1roOOLMeAmSRCwydbg3dNaZDV89sS7cRR/fenfv0LWcUPODDKS5uUO+PQtlLs7eGJkTlje913+gZ4bjd2ZSXpv1zcEpNfMwKfuHGW3FtmfRkWf28uOibwGj/GE2O2ItYky2fAaVh0kVAZniDQCguUFjhkYUGigAZtIoppOKC2rbxJj2cLDhFEtb3+dYTdLitR8iR/mUhInXwhq3mClX4QreuTObZhC2vEcKYMHGC17jExYM0gZSActc0cdV0XEyMMeFCPjk6JQoN+cGHDARnfdN/021ov3FxTZj4PuE/bb40Jtb3+8OysL6bi5vlV//SaN+YhuY2XVvM860DNnrd5Zo6qiRsKFJWCJX5piMd0u/risL0KdsbNWHCTBguNhInHRSx3ppwdUxZUGA/8V9TbYcEqMCUNx05nmMREzWRKSUY9HIGWZgI+lbMsIFKH2zUSjkeYMSNCEgVBzZqoRwre5gqDhwU4iQVAzZoE374tn2Zb905L8b7H4UxKvFR7Z+nB9OqLIpPAhNzSgK3kZjCYdWFFDbitKqzRqIcZOrnhbxzzPd9rYFqg/MtvkN5flJYXAjhS5mr5YbeZisJTMwlCdx6MQMOk5vqXlo6afdqRf5bd7iirBRQrcS55JW24r6TwMTcksDdKOZbUNS2y/WY68gAAAAASUVORK5CYII=" />
+    </div>
+    <div>
+      <p class="footer-text" style="font-size: 1.4rem;
         text-align: center;
         box-sizing: border-box;
         width: 51rem;
         margin-bottom: 3rem;">
-          You are receiving this email because you signed up on Mima Business.
-          If you would like to stop receiving this message from us, you can opt
-          out by clicking
-          <a class="link" href="{{{unsubscribe}}}" style="font-weight: 700;
+        You are receiving this email because you signed up on Mima Business.
+        If you would like to stop receiving this message from us, you can opt
+        out by clicking
+        <a class="link" href="{{{unsubscribe}}}" style="font-weight: 700;
           color: #1F68D6;">unsubscribe</a>. For more
-          informationabout how we process data, please see our
-          <a class="link" href="#" style="font-weight: 700;
+        informationabout how we process data, please see our
+        <a class="link" href="#" style="font-weight: 700;
           color: #1F68D6;">Privacy Policy</a>.
-        </p>
-      </div>
-    </footer>
-  </body>
+      </p>
+    </div>
+  </footer>
+</body>
+
 </html>
